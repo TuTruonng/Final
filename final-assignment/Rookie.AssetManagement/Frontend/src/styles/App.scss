@@ -1,0 +1,132 @@
+@import "./Header.scss";
+@import "./LeftSiteBar.scss";
+@import "./Table.scss";
+@import "./Modal.scss";
+@import "./Intro.scss";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+}
+
+body {
+    max-width: 100vw;
+}
+
+.react-datepicker-wrapper input[type="text"]{
+    border: 2px solid #DEE2E6;
+    border-radius: 3px;
+    padding: 8px;
+    font-size: 15px
+}
+
+.primaryColor {
+    color: rgba(207, 35, 56, 1);
+}
+
+.invalid {
+    color: #dc3545;
+}
+
+.container-lg-min {
+    max-width: 1700px;
+}
+
+.text-title {
+    color: rgba(207, 35, 56, 1);
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 2rem;
+}
+
+.pointer:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.disable {
+    opacity: 0.5;
+}
+
+.border {
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    height: calc(1.5em + 0.75rem + 2px);
+}
+
+.w-md {
+    width: 12rem;
+}
+
+.w-ld {
+    width: 16rem;
+}
+
+.icon-md {
+    font-size: 35px;
+}
+
+.icon-eye {
+    position: relative;
+    float: right;
+    margin-right: 40px;
+    margin-top: -26px;
+}
+
+.headText-Login {
+    width: 100%;
+    height: 70px;
+    color: #cf2338;
+    background-color: #fafcfc;
+    font-family: Segoe UI, Arial;
+    border-radius: 2%;
+    font-size: 100%;
+    font-weight: bold;
+    border: 1px solid lightgray;
+}
+
+.form-body {
+    border: 1px solid lightgray;
+    border-radius: 2%;
+    padding: 20px;
+    height: 325px;
+}
+
+.text {
+    text-align: center;
+    margin-top: 5%;
+}
+
+#btn-login {
+    float: right;
+}
+
+button.css-1r4vtzz {
+    padding: 8px 8px 9px 8px;
+}
+
+.p-2 {
+    color: gray;
+}
+
+.react-datepicker-wrapper {
+    width: 100%;
+}
+
+.icon-calendar {
+    position: absolute;
+    float: right;
+    right: 30px;
+    z-index: 2;
+}
+
+#btn-change {
+    margin-right: 20px;
+}
+
+.passwordInvalid {
+    color: #cf2338;
+    margin-left: 170px;
+}
